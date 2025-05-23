@@ -1,0 +1,51 @@
+html,
+body {
+    height: 100%;
+}
+
+.content {
+    min-height: calc(100vh - 200px);
+    /* Footer varsa ona göre */
+}
+
+.counter-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.space-y-2 {
+    gap: 0.5rem;
+    /* You can adjust the spacing between the elements */
+}
+
+
+.counter-button:active {
+    transform: scale(0.95);
+}
+
+.counter-value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-container {
+    border: 1px solid #1e3a8a;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
